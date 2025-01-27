@@ -5,7 +5,7 @@ async function sendCode() {
 
 
     try {
-        const response = await fetch('http://20.207.102.195:7000/', {
+        const response = await fetch('https://otlapi.azurewebsites.net/', {
         // const response = await fetch('http://localhost:7000/', {
             method: 'POST',
             headers: {'Content-Type' : 'text/plain'},
